@@ -27,15 +27,15 @@ Ketentuan lengkap tugas: [`docs/Midterm Project.pdf`](docs/Midterm%20Project.pdf
 
 | Anggota | Tanggung jawab | Notebook | Bagian laporan |
 |---|---|---|---|
-| A | Setup data, profil dataset, **integrasi & cek Run All** | `kerja/A_setup_data.ipynb` | 1. Pendahuluan, 2. Dataset |
-| B | Line plot + Area plot (stacked volume) | `kerja/B_line_area.ipynb` | 3. Visualisasi (Line, Area) |
-| C | Multiple time series (direct labeling) + Seasonal/Calendar heatmap | `kerja/C_multi_seasonal.ipynb` | 3. Visualisasi (Multi, Seasonal) |
-| D | Moving average (≥2 window + trade-off NaN) + fitting `np.polyfit` | `kerja/D_tren.ipynb` | 4. Analisis Tren |
-| E | Laporan, slide (≤10), video (≤10 menit), deklarasi AI, daftar pustaka | — | 5. Kesimpulan + penyusunan |
+| A — **Aprilianza** | Setup data, profil dataset, **integrasi & cek Run All** | `kerja/A_setup_data.ipynb` | 1. Pendahuluan, 2. Dataset |
+| B — **Arfi** | Line plot + Area plot (stacked volume) | `kerja/B_line_area.ipynb` | 3. Visualisasi (Line, Area) |
+| C — **Jeany** | Multiple time series (direct labeling) + Seasonal/Calendar heatmap | `kerja/C_multi_seasonal.ipynb` | 3. Visualisasi (Multi, Seasonal) |
+| D — **Irgi** | Moving average (≥2 window + trade-off NaN) + fitting `np.polyfit` | `kerja/D_tren.ipynb` | 4. Analisis Tren |
+| E — **Bill** | Laporan, slide (≤10), video (≤10 menit), deklarasi AI, daftar pustaka | — | 5. Kesimpulan + penyusunan |
 
 ## Kontrak Bersama (wajib diikuti agar mudah digabung)
 
-1. **Sel setup** dibuat Anggota A dan dipakai *persis sama* di paling atas semua notebook kerja. Variabel yang disediakan:
+1. **Sel setup** dibuat Aprilianza (Anggota A) dan dipakai *persis sama* di paling atas semua notebook kerja. Variabel yang disediakan:
    - `df_all` — long format: `Date, Ticker, Open, High, Low, Close, Adj Close, Volume`
    - `adj_wide` — pivot Adj Close (index `Date`, kolom = ticker)
    - `vol_wide` — pivot Volume
@@ -50,7 +50,7 @@ Ketentuan lengkap tugas: [`docs/Midterm Project.pdf`](docs/Midterm%20Project.pdf
    `01–02` = B, `03–04` = C, `05–06` = D.
 5. Setiap plot diikuti sel markdown **Insight:** (2–3 kalimat) — dipakai langsung di laporan.
 6. Sebelum push: **Restart & Run All** notebook kamu harus tanpa error.
-7. Jika memakai AI: simpan screenshot (nama platform + prompt + respons) dan prompt ke `ai/<NamaAnggota>/`, lalu setor 1 baris tabel deklarasi ke Anggota E.
+7. Jika memakai AI: simpan screenshot (nama platform + prompt + respons) dan prompt ke `ai/<nama>/` (mis. `ai/arfi/`), lalu setor 1 baris tabel deklarasi ke Bill (Anggota E).
 
 ## Alur Kerja Git
 
@@ -62,7 +62,7 @@ git commit -m "B: line plot BBCA"
 git push
 ```
 
-Hanya Anggota A yang mengedit `Midterm_Kelompok_X.ipynb` (untuk menghindari konflik notebook).
+Hanya Aprilianza (Anggota A) yang mengedit `Midterm_Kelompok_X.ipynb` (untuk menghindari konflik notebook).
 
 ## Urutan Pengerjaan
 
