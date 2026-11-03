@@ -39,7 +39,11 @@ Ketentuan lengkap tugas: [`docs/Midterm Project.pdf`](docs/Midterm%20Project.pdf
    - `df_all` — long format: `Date, Ticker, Open, High, Low, Close, Adj Close, Volume`
    - `adj_wide` — pivot Adj Close (index `Date`, kolom = ticker)
    - `vol_wide` — pivot Volume
-   - `WARNA` — dict warna tetap per bank
+   - `WARNA` — dict warna tetap per bank (BBCA biru, BBRI oranye, BMRI aqua, BBNI kuning)
+   - `HARI_DIBUANG` — tanggal placeholder hari libur (Volume 0, harga datar) yang sudah dibuang
+   - `simpan_fig(fig, nama)` dan `format_tanggal(ax)` — helper simpan gambar & sumbu tahun
+   - Analisis memakai **`Adj Close`** (sudah disesuaikan dividen/split), bukan `Close`
+   - Sel setup sudah terpasang di semua notebook `kerja/` dan notebook final; bisa jalan di Colab (data otomatis diambil dari GitHub)
 2. **Jangan ubah** variabel bersama; variabel tambahan pakai prefix bagian (`b_`, `c_`, `d_`).
 3. Path data relatif: dari `kerja/` pakai `../dataset/`, dari root pakai `dataset/`.
 4. Simpan gambar ke `figures/NN_nama.png`:
